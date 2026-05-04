@@ -14,7 +14,7 @@
 # 6. Scatterplots with regression lines: terrain variables vs vegetation
 #    properties
 #
-# Input: pioneer_data_with_functional_groups.xlsx
+# Input: Sulden_data.xlsx
 # Output: northness.png
 #         geomorph_vs_soil_by_lithology.png
 #         geomorph_vs_vegetation_by_lithology.png
@@ -37,7 +37,7 @@ theme_set(
 )
 
 
-df <- read_excel("Clean/pioneer_data_with_functional_groups.xlsx") %>%
+df <- read_excel("Sulden_data.xlsx") %>%
   filter(lithology %in% c("Limestone", "Metamorphic")) 
 
 lith_colors <- c("Limestone" = "grey50", "Metamorphic" = "#8B4513")
