@@ -14,7 +14,7 @@
 # 4. Scatterplots with regression lines per lithology and
 #    combined 
 #
-# Input: pioneer_data_with_functional_groups.xlsx
+# Input: Sulden_data.xlsx
 # Output: regression_table.docx
 #         regression_age_table.csv
 #         age_vs_soil_by_lithology.png
@@ -27,7 +27,7 @@ library(gridExtra)
 library(flextable)
 library(officer)
 
-df <- read_excel("pioneer_data_with_functional_groups.xlsx")
+df <- read_excel("Sulden_data.xlsx")
 
 lith_colors <- c("Limestone" = "grey50", "Metamorphic" = "#8B4513")
 
