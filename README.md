@@ -10,9 +10,8 @@ This repository contains the R code, data, and GIS files for the MSc thesis by Z
 ```
 ├── README.md
 ├── data/
-│   ├── pioneer_data_with_functional_groups.xlsx
-│   ├── data_veg_classes.xlsx
-│   ├── data_sulden_v1.xlsx
+│   ├── Sulden_data.xlsx
+│   ├── clhs_data.xlsx
 │   └── PointstableToExcel.xlsx
 ├── scripts/
 │   ├── cLHS.R
@@ -30,9 +29,8 @@ This repository contains the R code, data, and GIS files for the MSc thesis by Z
 
 | File | Description |
 |------|-------------|
-| `pioneer_data_with_functional_groups.xlsx` | Main dataset containing soil properties, vegetation properties, species cover, terrain age, geomorphometric variables, lithology, and geomorphic disturbance classification for all 53 plots |
-| `data_veg_classes.xlsx` | Subset of the main dataset with ISOPAM vegetation class assignments, used for successional trajectory analysis |
-| `data_sulden_v1.xlsx` | Raster-extracted terrain variables (slope, NDVI, TWI, age) used for conditional Latin Hypercube sampling prior to fieldwork |
+| `Sulden_data.xlsx` | Complete dataset containing plot metadata, topographic variables (aspect, slope, TWI, SPI, elevation), terrain age, lithology, geomorphic disturbance classification, lab results (pH, TOC, N), soil properties (Ah depth, root depth, root abundance), vegetation properties (richness, abundance, Shannon diversity, cover), individual species cover for 38 species, and ISOPAM vegetation class assignments with age classes ||
+| `clhs_data.xlsx` | Raster-extracted terrain variables (slope, NDVI, TWI, age) used for conditional Latin Hypercube sampling prior to fieldwork |
 | `PointstableToExcel.xlsx` | Final 53 sampled plot locations with terrain variables |
 
 ### GIS data
