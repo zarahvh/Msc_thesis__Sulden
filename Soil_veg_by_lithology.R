@@ -12,7 +12,7 @@
 #    depth, root abundance, Shannon diversity, species abundance)
 #    by lithology with Wilcoxon p-values
 #
-# Input: pioneer_data_with_functional_groups.xlsx
+# Input: Sulden_data.xlsx
 # Output: soil_lithology.png
 #         veg_lithology.png
 # ##############################################################
@@ -20,7 +20,7 @@
 library(ggplot2)
 library(gridExtra)
 
-df <- read_excel("pioneer_data_with_functional_groups.xlsx") %>%
+df <- read_excel("Sulden_data.xlsx") %>%
   filter(lithology %in% c("Limestone", "Metamorphic")) 
 
 big_theme <- theme_bw(base_size = 16) +
