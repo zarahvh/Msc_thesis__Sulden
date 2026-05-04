@@ -1,4 +1,4 @@
-# Msc_thesis__Sulden
+# Msc thesis
 # Soil and vegetation development on two different lithologies in the proglacial area of the Sulden Glacier, Italy
 
 ## Overview
