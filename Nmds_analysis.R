@@ -16,7 +16,7 @@
 #    C) Disturbance proportions per vegetation class, split by
 #       lithology
 #
-# Input: data_veg_classes.xlsx
+# Input: Sulden_data.xlsx
 # Output: successional_trajectories_combined.png
 # ##############################################################
 
@@ -45,7 +45,7 @@ big_theme <- theme_bw(base_size = 16) +
 
 # ### 1. Load and prepare data ###
 
-df_class <- read_excel("data_veg_classes.xlsx")
+df_class <- read_excel("Sulden_data.xlsx")
 
 df_class$veg_class <- factor(df_class$veg_class)
 df_class$geom_disturbance <- factor(df_class$geom_disturbance,
