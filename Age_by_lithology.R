@@ -9,7 +9,7 @@
 # 3. Scatterplots with linear regression lines: age vs soil properties
 # 4. Scatterplots with linear regression lines: age vs vegetation properties
 #
-# Input: pioneer_data_with_functional_groups.xlsx
+# Input: Sulden_data.xlsx
 # Output: age_distribution_by_lithology.png
 #         age_vs_soil_by_lithology.png
 #         age_vs_vegetation_by_lithology.png
@@ -22,7 +22,7 @@ library(readxl)
 library(gridExtra)
 
 
-df <- read_excel("pioneer_data_with_functional_groups.xlsx") %>%
+df <- read_excel("Sulden_data.xlsx") %>%
   filter(lithology %in% c("Limestone", "Metamorphic"))
 
 # Test normaility
