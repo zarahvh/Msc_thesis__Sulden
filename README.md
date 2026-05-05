@@ -68,7 +68,7 @@ Geospatial analysis was performed in ArcGIS Pro. The workflow included:
 1. **Terrain age determination:** Terrain age was determined from combined glacier extent outlines from the years 1818, 1927, 1945, 1969, 1989, 1997, 2005, 2013, 2016 and 2021, which were converted to point features and interpolated to create a continuous age raster. 
 2. **Sampling design:** Terrain variables were extracted at raster cell level for conditional Latin Hypercube sampling
 3. **Geomorphometric variables:** Slope, plan and profile curvature, NDVI, TWI, and SPI were derived from the DEM at 3x3m resolution
-4. **Lithology assignment:** Each plot was assigned a lithology (limestone, metamorphic, or mixed) based on the geological map
+4. **Lithology assignment:** Each plot was assigned a lithology (limestone, metamorphic, or mixed) based on the map of the area
 5. **Map production:** Study area, lithology, vegetation class, and disturbance maps were produced 
 
 
